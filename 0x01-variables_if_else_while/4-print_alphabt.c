@@ -8,7 +8,7 @@ int main(void)
 {
 	int alpha = 'a';
 
-	while(alpha <= 'z')
+	while (alpha <= 'z')
 	{
 		if (alpha != 'e' && alpha != 'q')
 			putchar(alpha);
@@ -16,5 +16,5 @@ int main(void)
 	}
 		putchar('\n');
 	return (0);
-}	
+}
 
